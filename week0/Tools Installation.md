@@ -7,19 +7,19 @@ This document contains the installation details of the essential tools required 
 ## 📌 Installed Tools
 
 ### 1. Yosys  
- ![Yosys version check](yosys.png)
+ ![Yosys](yosys.png)
 
 ### 2. Icarus Verilog (iverilog)  
-
+![iverilog](iverilog.png)
 
 ### 3. GTKWave  
-
+![gtkwave](gtkwave.png)
 
 ### 4. Ngspice  
- 
+![ngspice](ngspice.png) 
 
 ### 5. Magic VLSI  
- 
+ ![magic](magic.png)
 
 ---
 
