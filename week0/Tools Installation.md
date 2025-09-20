@@ -7,7 +7,7 @@ This document contains the installation details of the essential tools required 
 ## 📌 Installed Tools
 
 ### 1. Yosys  
- ![Yosys version check](week0/yosys.png)
+ ![Yosys version check](yosys.png)
 
 ### 2. Icarus Verilog (iverilog)  
 
