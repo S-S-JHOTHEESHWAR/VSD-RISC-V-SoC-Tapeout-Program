@@ -7,7 +7,7 @@ This document contains the installation details of the essential tools required 
 ## 📌 Installed Tools
 
 ### 1. Yosys  
- ![Yosys](yosys.png)
+![Yosys](yosys.png)
 
 ### 2. Icarus Verilog (iverilog)  
 ![iverilog](iverilog.png)
@@ -19,7 +19,10 @@ This document contains the installation details of the essential tools required 
 ![ngspice](ngspice.png) 
 
 ### 5. Magic VLSI  
- ![magic](magic.png)
+![magic](magic.png)
+
+## Checking versions 
+![version](versions.png)
 
 ---
 
