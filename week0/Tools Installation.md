@@ -24,6 +24,9 @@ This document contains the installation details of the essential tools required 
 ## Checking versions 
 ![version](versions.png)
 
+## Openlane 
+![openlane](openlane.png)
+
 ---
 
 ## ✅ Summary
