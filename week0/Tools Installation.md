@@ -36,4 +36,5 @@ The following tools are now installed and ready for use in the RTL-to-GDSII desi
 - **Icarus Verilog (iverilog)** → RTL Simulation  
 - **GTKWave** → Waveform Viewing  
 - **Ngspice** → Circuit Simulation  
-- **Magic VLSI** → Layout & Physical Design  
+- **Magic VLSI** → Layout & Physical Design
+- **OpenLane** → End-to-End RTL-to-GDSII Flow Automation  
