@@ -62,6 +62,11 @@ yosys> abc -liberty lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 # Write synthesized gate-level netlist to file
 yosys> write_verilog -noattr synth_good_mux.v
 
+```
+![cmd5](cmd5.png)
+---
+```bash
+
 # View schematic diagram
 yosys> show
 ```
