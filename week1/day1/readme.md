@@ -13,7 +13,10 @@
 ```bash
 # Compile Verilog source and testbench
 iverilog verilog_files/good_mux.v verilog_files/tb_good_mux.v
+```
+![cmd1](cmd1.png)
 
+```bash
 # Run the simulation (creates tb_good_mux.vcd if $dumpfile is present in testbench)
 ./a.out
 
