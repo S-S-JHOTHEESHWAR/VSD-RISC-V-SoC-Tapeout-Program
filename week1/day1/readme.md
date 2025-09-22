@@ -47,6 +47,10 @@ yosys> read_verilog verilog_files/good_mux.v
 
 # Synthesize the design (set top module as good_mux)
 yosys> synth -top good_mux
+```
+![synth_op](synth_op.png)
+---
+```bash
 
 # Map the design to Sky130 standard cells
 yosys> abc -liberty lib/sky130_fd_sc_hd__tt_025C_1v80.lib
