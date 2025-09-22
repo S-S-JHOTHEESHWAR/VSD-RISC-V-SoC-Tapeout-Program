@@ -54,6 +54,10 @@ yosys> synth -top good_mux
 
 # Map the design to Sky130 standard cells
 yosys> abc -liberty lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+```
+![abc](abc_op.png)
+---
+```bash
 
 # Write synthesized gate-level netlist to file
 yosys> write_verilog -noattr synth_good_mux.v
