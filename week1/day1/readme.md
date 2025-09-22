@@ -18,12 +18,13 @@ iverilog verilog_files/good_mux.v verilog_files/tb_good_mux.v
 ./a.out
 ```
 ![cmd1](cmd1.png)
-
+---
 ```bash
 # Open waveform in GTKWave
 gtkwave tb_good_mux.vcd
 ```
 ![op](mux_waveform.png)
+---
 ### 2. Yosys Synthesis
 
 ```bash
