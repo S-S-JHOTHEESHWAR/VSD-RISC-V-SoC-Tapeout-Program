@@ -70,7 +70,7 @@ yosys> write_verilog -noattr synth_good_mux.v
 # View schematic diagram
 yosys> show
 ```
-
+![yosys_sch](yosys_schematic.png)
 ---
 
 ## 📝 Notes
