@@ -4,7 +4,7 @@
 
 > **Repository Log:** Documenting the end-to-end journey of building a RISC-V based SoC, as part of the **VSD RISC-V SoC Tapeout Program**.
 
-**Progress to Tapeout:** **[▓▓░░░░░░░░] 20% Complete** ⏳
+
 
 -----
 
