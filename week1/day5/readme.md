@@ -100,9 +100,6 @@ endgenerate
 
 
 
-## 🔹 6. Lab work
-
-
 ---
 
 ## 🎯 Summary
@@ -114,6 +111,5 @@ endgenerate
 * ✅ **Ripple Carry Adder (RCA)** → simple but slow adder due to carry ripple delay.
 
 ---
-
 
 
