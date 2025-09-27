@@ -99,6 +99,9 @@ generate
 endgenerate
 ```
 
+# mux and demus using generate
+![mux](mux.png)
+![demux](demux.png)
 ---
 
 ## 🔹 5. Ripple Carry Adder (RCA)
