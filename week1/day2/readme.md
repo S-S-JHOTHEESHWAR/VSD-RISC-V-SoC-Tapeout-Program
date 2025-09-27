@@ -19,8 +19,9 @@
 - `.lib` → Timing & power info (Liberty format).  
 - `.lef` → Layout exchange format (geometry info).  
 - `.gds` → Final layout for fabrication.  
-- Used in **Yosys, OpenLANE, Magic, KLayout** flows.  
+- Used in **Yosys, OpenLANE, Magic, KLayout** flows.
 
+![lib](skylib.png)
 ---
 
 ## 🔹 2. Hierarchical vs. Flattened Synthesis
