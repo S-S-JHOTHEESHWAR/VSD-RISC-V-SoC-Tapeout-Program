@@ -63,7 +63,9 @@ module multiple_modules (input a, input b, input c , output y);
 endmodule
 ```
 Hierarchical Synthesis
+![hier](h1.png)
 
+![hiershc](h2.png)
 Flattened Synthesis
 
 ---
