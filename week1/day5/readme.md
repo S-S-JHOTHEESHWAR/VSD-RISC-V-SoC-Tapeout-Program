@@ -100,6 +100,9 @@ endgenerate
 
 
 
+## 🔹 6. Lab work
+
+
 ---
 
 ## 🎯 Summary
