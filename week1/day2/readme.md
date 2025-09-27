@@ -62,14 +62,15 @@ module multiple_modules (input a, input b, input c , output y);
 	sub_module2 u2(.a(net1),.b(c),.y(y));  //y = net1|c ,ie y = a&b + c;
 endmodule
 ```
-Hierarchical Synthesis
+#Hierarchical Synthesis
 ![hier](h1.png)
 
 ![hiershc](h2.png)
 
-Flattened Synthesis
+#Flattened Synthesis
 ![flatt](flatten.png)
-
+![f11](f2.png)
+![f22](f22.png)
 ---
 
 ## 🔹 3. Types of D Flip-Flops (DFFs)
