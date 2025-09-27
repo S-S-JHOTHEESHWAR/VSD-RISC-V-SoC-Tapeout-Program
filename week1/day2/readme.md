@@ -66,7 +66,9 @@ Hierarchical Synthesis
 ![hier](h1.png)
 
 ![hiershc](h2.png)
+
 Flattened Synthesis
+![flatt](flatten.png)
 
 ---
 
