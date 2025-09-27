@@ -116,6 +116,8 @@ endmodule
 ```
 - **Synchronous reset**: Takes effect **only** on the clock edge.  
 
+![wave](ff_wave.png)
+![ff_sch](ff_sch.png)
 ---
 
 ## 🎯 Summary
