@@ -55,7 +55,12 @@ If a long combinational path exceeds timing, registers may be shifted across log
 ---
 
 ## 5. lab work
-
+![i1](im1.png)
+![i1](im2.png)
+![i1](im3.png)
+![i1](im4.png)
+![i1](im5.png)
+![i1](im6.png)
 
 ## 🎯 Summary
 - ✅ **Constant Propagation** → replaces constants to simplify logic.  
