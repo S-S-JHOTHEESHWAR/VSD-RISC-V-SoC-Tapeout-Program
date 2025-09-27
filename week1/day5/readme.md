@@ -110,7 +110,7 @@ endgenerate
 * Each adder waits for the carry-out of the previous stage → hence the name *ripple*.
 * Simple to design, but **slow for large bit-widths** due to carry propagation delay.
 
-
+![rca](rca.png)
 
 ---
 
