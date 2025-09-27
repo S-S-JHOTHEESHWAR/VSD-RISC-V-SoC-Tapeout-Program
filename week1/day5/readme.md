@@ -26,6 +26,15 @@ always @(*) begin
 end
 ```
 
+
+## If-else lab work
+
+![if1](if1.png)
+![if2](if1s.png)
+
+![if3](if2.png)
+![if4](if2s.png)
+
 ---
 
 ## 🔹 2. Inferred Latches in Verilog
