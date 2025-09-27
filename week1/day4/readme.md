@@ -1,4 +1,4 @@
-
+# Day 4 – Gate-Level Simulation (GLS) & Key Concepts
 ## 📌 Tasks
 
 1.  Perform **Gate-Level Simulation (GLS)** using Sky130 standard cell library.
@@ -70,6 +70,12 @@ A **synthesis–simulation mismatch** happens when simulation results differ fro
 
 -----
 
+## 4. lab work
+
+![i1](im1.png)
+![i1](im11.png)
+![i1](im3.png)
+![i1](im4.png)
 ## 🎯 Summary
 
   * ✅ **GLS** checks the correctness of the **synthesized netlist** using standard cell models.
