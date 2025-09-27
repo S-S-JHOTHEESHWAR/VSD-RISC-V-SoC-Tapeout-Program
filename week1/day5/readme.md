@@ -99,7 +99,7 @@ generate
 endgenerate
 ```
 
-# mux and demus using generate
+# mux and demux using generate
 ![mux](mux.png)
 ![demux](demux.png)
 ---
