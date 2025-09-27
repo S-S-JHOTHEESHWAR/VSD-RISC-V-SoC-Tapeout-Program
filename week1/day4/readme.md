@@ -75,6 +75,8 @@ A **synthesis–simulation mismatch** happens when simulation results differ fro
 ![i1](im1.png)
 ![i1](im11.png)
 ![i1](im3.png)
+
+#### gate level simulation using generated netlist 
 ![i1](im4.png)
 ## 🎯 Summary
 
