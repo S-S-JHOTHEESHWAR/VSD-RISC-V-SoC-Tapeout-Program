@@ -108,7 +108,11 @@ cd output/pre_synth_sim
 ```
 compiling 
 
+![wave1](11.png)
 
+![wave2](22.png)
+
+![wave3](33.png)
 ## 🧰 Tools Used
 
 | Tool                          | Purpose                |
