@@ -49,13 +49,9 @@ SoCs offer:
 iverilog -o vsdbabysoc_tb.vvp vsdbabysoc.v testbench.v rvmyth.v avsdpll.v avsddac.v
 ```
 
-### 🔹 Step 2 - Run Simulation
 
-```bash
-vvp vsdbabysoc_tb.vvp
-```
 
-### 🔹 Step 3 - View Waveforms
+### 🔹 Step 2 - View Waveforms
 
 ```bash
 gtkwave pre_synth_sim.vcd
