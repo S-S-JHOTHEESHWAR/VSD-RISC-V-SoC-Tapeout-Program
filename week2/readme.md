@@ -91,8 +91,6 @@ This project bridges the gap between **digital logic** and **analog interfacing*
 | ----------------------------- | ---------------------- |
 | **Icarus Verilog (iverilog)** | RTL Simulation         |
 | **GTKWave**                   | Waveform Viewing       |
-| **Yosys**                     | Synthesis              |
-| **Magic VLSI**                | Layout Design          |
 | **Makerchip / SandPiperTLV**  | TL-Verilog Compilation |
 
 ---
