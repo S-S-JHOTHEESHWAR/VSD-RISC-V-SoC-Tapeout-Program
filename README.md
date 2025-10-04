@@ -34,6 +34,21 @@ This week focused on the core translation of logic into physical hardware.
 | **Day 5** | **Verilog Constructs for Hardware** | 🔹 Understood the synthesis impact of **If-Else statements**. <br> 🔹 Identified and learned to avoid **Inferred Latches**. <br> 🔹 Explored the role of **For Loops** and used **Generate Blocks** for scalable design. <br> 🔹 Introduced the **Ripple Carry Adder (RCA)** architecture. |
 
 -----
+### ⚙️ Week 2 – RVMYTH Integration & VSDBabySoC Simulation
+
+> “From TL-Verilog to Waves — the BabySoC finally comes alive!”
+
+This week marked a major milestone in the **VSD SoC journey**, transforming design files into a living, breathing SoC.
+
+- 🧠 **RVMYTH Conversion:** Translated the **`rvmyth.tlv`** (TL-Verilog) file into synthesizable **`rvmyth.v`**, enabling smooth integration with the SoC environment.  
+- 🧩 **Integration:** Combined the **RVMYTH core**, **PLL**, and **10-bit DAC** to form the complete **VSDBabySoC**.  
+- 🧪 **Simulation:** Compiled and simulated the SoC using **Icarus Verilog (iverilog)** for functional verification.  
+- 🌊 **Waveform Analysis:** Visualized the output signals in **GTKWave**, confirming proper communication between the processor core, PLL, and DAC modules.  
+- 🔍 **Key Insights:** Observed stable clock generation by the PLL, verified RISC-V instruction execution, and confirmed DAC response — bridging digital and analog domains.
+
+> 🚀 **System in Motion:** The BabySoC officially boots into life — running RISC-V instructions, syncing clocks, and pulsing analog outputs.  
+> The silicon dream is now **digital reality**.
+
 
 ## 🙏 Gratitude & Acknowledgment
 
