@@ -81,6 +81,34 @@ This project bridges the gap between **digital logic** and **analog interfacing*
 
 
 
+
+## running vsd baby soc
+
+```bash
+sudo apt update
+sudo apt install python3-venv python3-pip
+python3 -m venv sp_env
+source sp_env/bin/activate
+pip install pyyaml click sandpiper-saas
+
+sandpiper-saas -i ./src/module/*.tlv -o rvmyth.v --bestsv --noline -p verilog --outdir ./src/module/
+```
+command to convert rvmyth.tlv to rvmyth.v
+
+```bash 
+mkdir -p output/pre_synth_sim
+
+iverilog -o output/pre_synth_sim/pre_synth_sim.out \
+  -DPRE_SYNTH_SIM \
+  -I src/include -I src/module \
+  src/module/testbench.v
+
+cd output/pre_synth_sim
+./pre_synth_sim.out
+```
+compiling 
+
+
 ## 🧰 Tools Used
 
 | Tool                          | Purpose                |
