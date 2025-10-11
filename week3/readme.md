@@ -55,6 +55,9 @@ yosys> read_liberty -lib sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd
 yosys> synth -top vsdbabysoc
 ```
 ![im5](im5.png)
+![im6](im6.png)
+![im7](im7.png)
+![im8](im8.png)
 ```bash
 yosys> abc -liberty sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd___tt_025C_1v80.lib -script +strash; scorr;ifraig;retime;{D};strash;dch, -f;map,-M,1,{D}
 ```
