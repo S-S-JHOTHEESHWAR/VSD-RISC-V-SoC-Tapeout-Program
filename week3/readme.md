@@ -68,7 +68,7 @@ setundef -zero
 clean -purge
 rename -enumerate
 ```
-
+![im10](im10.png)
 ```bash
 write_verilog -noattr VSDBabySoC/output/vsdbabysoc.synth.v
 ```
