@@ -26,7 +26,7 @@ Unlike behavioral or RTL simulations, which operate at a higher abstraction leve
 yosys
 ```
 
-### read the required verilog files
+### required commands 
 ```bash
 yosys> read_verilog VSDBabySoC/src/module/vsdbabysoc.v
 ```
