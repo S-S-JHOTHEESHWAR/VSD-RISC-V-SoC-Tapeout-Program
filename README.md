@@ -50,6 +50,41 @@ This week marked a major milestone in the **VSD SoC journey**, transforming desi
 > The silicon dream is now **digital reality**.
 
 
+### 🚀 Week 3 – Post-Synthesis Verification: GLS & STA
+
+> "From RTL to Reality – BabySoC passes the gate-level test!"
+
+---
+
+### 🔹 Gate-Level Simulation (GLS)
+✅ **Objective:** Verify BabySoC functionality after synthesis  
+- Ran GLS on the **synthesized netlist** using **Icarus Verilog**  
+- Compared GLS waveforms with RTL simulation to confirm **functional correctness**  
+- Checked module interactions: **RVMYTH core ↔ PLL ↔ DAC**  
+
+💡 **Key Insight:** All signals propagated correctly post-synthesis – BabySoC “still alive” at gate level!
+
+---
+
+### 🔹 Static Timing Analysis (STA)
+⏱️ **Objective:** Ensure timing correctness of the design  
+- Performed **STA using OpenSTA**  
+- Verified **setup & hold checks**, **slack**, and **critical paths**  
+- Generated timing reports:
+  - **Worst Negative Slack (WNS)** ✅  
+  - **Total Negative Slack (TNS)** ✅  
+
+💡 **Key Insight:** BabySoC meets all timing constraints – ready for safe operation at target frequency!
+
+---
+
+### 🎯 Outcome
+- BabySoC passed **both GLS and STA checks**  
+- Ensured design is **functionally robust** and **timing-correct** post-synthesis  
+- Foundation ready for **integration and floorplanning** in upcoming weeks
+
+
+
 ## 🙏 Gratitude & Acknowledgment
 
 This world-class learning opportunity is made possible by the dedication of the VSD team.
