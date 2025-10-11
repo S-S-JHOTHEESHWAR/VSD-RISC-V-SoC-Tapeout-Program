@@ -77,5 +77,9 @@ write_verilog -noattr VSDBabySoC/output/vsdbabysoc.synth.v
 ![im12](im12.png)
 
 ### post synth sim
+```bash
+iverilog -o VSDBabySoC/output/post_synth_sim.out -DPOST_SYNTH_SIM -DFUNCTIONAL -DUNIT_DELAY=#1 -I VSDBabySoC/src/include -I VSDBabySoC/src/module VSDBabySoC/src/module/testbench.v
+```
+
 
 
