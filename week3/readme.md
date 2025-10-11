@@ -34,14 +34,15 @@ yosys> read_verilog VSDBabySoC/src/module/vsdbabysoc.v
 ```bash
 yosys> read_verilog -I VSDBabySoC/src/include/ VSDBabySoC/src/module/rvmyth.v
 ```
-
+![im2](im2.png)
 ```bash
 yosys> read_verilog -I VSDBabySoC/src/include/ VSDBabySoC/src/module/clk_gate.v
 ```
-
+![im3](im3.png)
 ```bash
 yosys> read_liberty -lib VSDBabySoC/src/lib/avsdpll.lib
 ```
+
 ```bash
 yosys> read_liberty -lib VSDBabySoC/src/lib/avsddac.lib
 ```
@@ -49,11 +50,11 @@ yosys> read_liberty -lib VSDBabySoC/src/lib/avsddac.lib
 ```bash
 yosys> read_liberty -lib sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd___tt_025C_1v80.lib
 ```
-
+![im4](im4.png)
 ```bash
 yosys> synth -top vsdbabysoc
 ```
-
+![im5](im5.png)
 ```bash
 yosys> abc -liberty sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd___tt_025C_1v80.lib -script +strash; scorr;ifraig;retime;{D};strash;dch, -f;map,-M,1,{D}
 ```
