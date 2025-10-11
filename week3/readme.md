@@ -61,7 +61,7 @@ yosys> synth -top vsdbabysoc
 ```bash
 yosys> abc -liberty sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd___tt_025C_1v80.lib -script +strash; scorr;ifraig;retime;{D};strash;dch, -f;map,-M,1,{D}
 ```
-![im5](im5.png)
+![im9](im9.png)
 ```bash
 flatten
 setundef -zero
