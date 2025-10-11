@@ -154,7 +154,8 @@ docker build --file Dockerfile.ubuntu22.04 --tag opensta .
 ```bash
 docker run -i -v $HOME:/data opensta
 ```
-
+![st1](sta1.png)
+![st2](sta2.png)
 
 
 
