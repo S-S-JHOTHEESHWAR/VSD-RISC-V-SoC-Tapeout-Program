@@ -83,3 +83,63 @@ iverilog -o VSDBabySoC/output/post_synth_sim.out -DPOST_SYNTH_SIM -DFUNCTIONAL -
 ![imf2](imf2.png)
 
 
+# 📊 Static Timing Analysis (STA) – Key Notes
+
+## 🎯 Focus Areas
+This document summarizes key points from the **STA course**, with emphasis on setup/hold checks, slack, clock definitions, and path-based analysis.
+
+---
+
+## ⚡ Setup and Hold Checks
+- **Setup Time (Tsetup)**: Minimum time data must be stable **before** the clock edge.  
+- **Hold Time (Thold)**: Minimum time data must remain stable **after** the clock edge.  
+- Violations can cause **metastability** or incorrect data capture.  
+- **STA** verifies that all flip-flops meet setup and hold requirements.
+
+---
+
+## ⏱ Slack
+- **Slack** = Available time − Required time  
+- **Positive Slack**: Timing constraints are met.  
+- **Negative Slack**: Timing violations; circuit may fail at target frequency.  
+- Calculated for each path in the design (setup and hold paths separately).  
+
+---
+
+## 🕒 Clock Definitions
+- Define **clock sources** in STA:
+  - Frequency / Period  
+  - Duty cycle  
+  - Source of clock (PLL, external oscillator, etc.)  
+- **Clock uncertainty/jitter** is considered to ensure reliable timing checks.  
+- Multiple clocks: Must define **relationships and interactions** (multicycle paths, clock domains).
+
+---
+
+## 🔗 Path-Based Analysis
+- STA analyzes timing **between sequential elements** (flip-flops, latches).  
+- Steps in path-based analysis:
+  1. Identify all paths from **startpoint** to **endpoint**.  
+  2. Calculate **arrival time** and **required time** at endpoint.  
+  3. Compute **slack** for each path.  
+- Types of paths:
+  - **Setup paths** → Must meet setup constraints.  
+  - **Hold paths** → Must meet hold constraints.  
+  - **Multicycle paths** → Paths with more than one clock cycle to propagate data.  
+- Critical paths are those with **minimum positive slack** or **negative slack**.
+
+---
+
+## ✅ Summary
+- STA ensures **timing correctness** without running dynamic simulations.  
+- Key outputs: Setup/Hold slack, critical paths, timing violations.  
+- Helps **optimize circuit timing** and ensure reliable operation at target frequencies.  
+- Considerations include:
+  - Process, Voltage, Temperature (PVT) variations  
+  - Clock definitions and uncertainties  
+  - Path-based timing checks across all sequential elements  
+
+
+
+
+
