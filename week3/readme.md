@@ -140,6 +140,21 @@ This document summarizes key points from the **STA course**, with emphasis on se
   - Path-based timing checks across all sequential elements  
 
 
+## lab work for opensta
+```bash
+git clone https://github.com/The-OpenROAD-Project/OpenSTA.git
+cd OpenSTA
+```
+
+```bash
+docker build --file Dockerfile.ubuntu22.04 --tag opensta .
+
+```
+
+```bash
+docker run -i -v $HOME:/data opensta
+```
+
 
 
 
