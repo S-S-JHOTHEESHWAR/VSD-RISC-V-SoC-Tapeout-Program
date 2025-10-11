@@ -76,4 +76,6 @@ write_verilog -noattr VSDBabySoC/output/vsdbabysoc.synth.v
 ```
 ![im12](im12.png)
 
+### post synth sim
+
 
