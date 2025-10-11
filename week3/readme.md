@@ -30,7 +30,7 @@ yosys
 ```bash
 yosys> read_verilog VSDBabySoC/src/module/vsdbabysoc.v
 ```
-
+![im1](im1.png)
 ```bash
 yosys> read_verilog -I VSDBabySoC/src/include/ VSDBabySoC/src/module/rvmyth.v
 ```
