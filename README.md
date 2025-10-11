@@ -48,40 +48,27 @@ This week marked a major milestone in the **VSD SoC journey**, transforming desi
 
 > 🚀 **System in Motion:** The BabySoC officially boots into life — running RISC-V instructions, syncing clocks, and pulsing analog outputs.  
 > The silicon dream is now **digital reality**.
-
-
-### 🚀 Week 3 – Post-Synthesis Verification: GLS & STA
-
 > "From RTL to Reality – BabySoC passes the gate-level test!"
 
----
 
-### 🔹 Gate-Level Simulation (GLS)
-✅ **Objective:** Verify BabySoC functionality after synthesis  
-- Ran GLS on the **synthesized netlist** using **Icarus Verilog**  
-- Compared GLS waveforms with RTL simulation to confirm **functional correctness**  
-- Checked module interactions: **RVMYTH core ↔ PLL ↔ DAC**  
+### Week 3 – Post-Synthesis Verification: GLS & STA
 
-💡 **Key Insight:** All signals propagated correctly post-synthesis – BabySoC “still alive” at gate level!
+> “Ensuring BabySoC behaves correctly at gate level and meets timing constraints.”
 
----
+- 🔹 **Gate-Level Simulation (GLS):**  
+  - Ran GLS on the synthesized BabySoC netlist using **Icarus Verilog**.  
+  - Compared GLS waveforms with RTL simulation to confirm **functional correctness**.  
+  - Verified stable interactions between **RVMYTH core, PLL, and DAC** post-synthesis.
 
-### 🔹 Static Timing Analysis (STA)
-⏱️ **Objective:** Ensure timing correctness of the design  
-- Performed **STA using OpenSTA**  
-- Verified **setup & hold checks**, **slack**, and **critical paths**  
-- Generated timing reports:
-  - **Worst Negative Slack (WNS)** ✅  
-  - **Total Negative Slack (TNS)** ✅  
+- 🔹 **Static Timing Analysis (STA):**  
+  - Performed STA using **OpenSTA** to check **setup/hold times, slack, and clock paths**.  
+  - Confirmed **timing constraints** were met and the design is free of critical path violations.  
+  - Generated reports for **worst negative slack (WNS)** and **total negative slack (TNS)** for documentation.
 
-💡 **Key Insight:** BabySoC meets all timing constraints – ready for safe operation at target frequency!
+> ✅ **Outcome:** BabySoC passed both GLS and STA checks, ensuring it is **timing-correct and functionally robust** post-synthesis.
 
----
 
-### 🎯 Outcome
-- BabySoC passed **both GLS and STA checks**  
-- Ensured design is **functionally robust** and **timing-correct** post-synthesis  
-- Foundation ready for **integration and floorplanning** in upcoming weeks
+
 
 
 
