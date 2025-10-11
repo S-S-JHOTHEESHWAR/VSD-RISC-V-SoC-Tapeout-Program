@@ -67,8 +67,10 @@ flatten
 setundef -zero
 clean -purge
 rename -enumerate
+stat
 ```
 ![im10](im10.png)
+![im11](im11.png)
 ```bash
 write_verilog -noattr VSDBabySoC/output/vsdbabysoc.synth.v
 ```
