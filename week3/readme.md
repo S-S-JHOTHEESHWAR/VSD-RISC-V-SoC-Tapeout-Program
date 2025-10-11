@@ -80,6 +80,6 @@ write_verilog -noattr VSDBabySoC/output/vsdbabysoc.synth.v
 ```bash
 iverilog -o VSDBabySoC/output/post_synth_sim.out -DPOST_SYNTH_SIM -DFUNCTIONAL -DUNIT_DELAY=#1 -I VSDBabySoC/src/include -I VSDBabySoC/src/module VSDBabySoC/src/module/testbench.v
 ```
-
+![imf2](imf2.png)
 
 
