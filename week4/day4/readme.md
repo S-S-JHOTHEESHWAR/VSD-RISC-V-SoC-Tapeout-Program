@@ -1,4 +1,4 @@
-# 📘 Week 4 - Day 4: CMOS Inverter Noise Margin Analysis
+# Day 4: CMOS Inverter Noise Margin Analysis
 
 ## 🔍 Objective
 To analyze the **noise margins** of a **CMOS inverter** using SPICE simulation with specified device parameters and capacitive load.
