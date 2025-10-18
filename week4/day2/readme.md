@@ -9,7 +9,7 @@
 - **Width (W)** = 39 µm  
 - **Length (L)** = 15 µm  
 
-## 🧩 Key Plots
+## lab work
 - **ID vs VDS** → To observe the **linear and saturation regions** of NMOS operation.  
 - **ID vs VGS** → To understand **threshold voltage** and **transistor conduction behavior**.
 
