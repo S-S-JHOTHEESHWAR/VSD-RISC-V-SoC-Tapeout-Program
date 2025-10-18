@@ -10,9 +10,12 @@
 - **Length (L)** = 15 µm  
 
 ## lab work
-- **ID vs VDS** → To observe the **linear and saturation regions** of NMOS operation.  
+- **ID vs VDS** → To observe the **linear and saturation regions** of NMOS operation.
+![im3](im3.png)
+![im4](im4.png)
 - **ID vs VGS** → To understand **threshold voltage** and **transistor conduction behavior**.
-
+![im5](im5.png)
+![im6](im6.png)
 ## 🧠 Summary
 These simulations help visualize how the **NMOS transistor responds to voltage variations**, providing insight into **current flow, channel formation, and device performance** under different biasing conditions.
 
