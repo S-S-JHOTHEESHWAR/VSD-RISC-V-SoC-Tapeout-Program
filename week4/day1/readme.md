@@ -21,7 +21,7 @@
 ### NMOS characteristics
 - To observe how the drain current (ID) varies with drain-source voltage (VDS) for a fixed gate-source voltage (VGS).
 
-!(im1)[im1.png]
+![im1](im1.png)
 
 
 ## 🧠 Summary
