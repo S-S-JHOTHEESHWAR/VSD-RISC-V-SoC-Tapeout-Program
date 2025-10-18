@@ -22,6 +22,7 @@
 - To observe how the drain current (ID) varies with drain-source voltage (VDS) for a fixed gate-source voltage (VGS).
 
 ![im1](im1.png)
+![im2](im2.png)
 
 
 ## 🧠 Summary
