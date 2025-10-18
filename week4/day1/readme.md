@@ -21,6 +21,10 @@
 ### NMOS characteristics
 - To observe how the drain current (ID) varies with drain-source voltage (VDS) for a fixed gate-source voltage (VGS).
 
+```bash
+ngspice day1_nfet_idvds_L2_W5.spice
+plot -vdd#branch
+```
 ![im1](im1.png)
 ![im2](im2.png)
 
