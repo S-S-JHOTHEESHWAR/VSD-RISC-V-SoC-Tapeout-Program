@@ -17,7 +17,8 @@
 - Essential in **VLSI and mixed-signal design** workflows.  
 - Helps in **characterizing performance** (e.g., delay, power, gain, noise margin).
 
-## 🔬 lab work
+## 🔬 lab work 
+### NMOS characteristics
 - To observe how the drain current (ID) varies with drain-source voltage (VDS) for a fixed gate-source voltage (VGS).
 
 
