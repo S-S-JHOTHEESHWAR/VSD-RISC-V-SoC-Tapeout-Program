@@ -31,7 +31,8 @@ plot -vdd#branch
 - x-axis -> Vds | y-axis -> Id | each red line has a different Vgs value 
 
 ## 🧠 Summary
-SPICE simulation is a powerful tool that bridges the gap between **theory and real circuit behavior**, making it a cornerstone in CMOS and VLSI design verification.
+SPICE simulation is a powerful tool that bridges the gap between **theory and real circuit behavior**, making it a cornerstone in **CMOS and VLSI design verification**.  
+It also helps in **analyzing transistor characteristics**, such as plotting **VDS vs ID** curves for different **VGS** values in an **NMOS transistor**, which illustrates how the device operates in **linear and saturation regions**.
 
 ---
 
