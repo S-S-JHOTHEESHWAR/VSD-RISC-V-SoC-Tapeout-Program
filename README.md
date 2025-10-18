@@ -68,6 +68,17 @@ This week marked a major milestone in the **VSD SoC journey**, transforming desi
 > ✅ **Outcome:** BabySoC passed both GLS and STA checks, ensuring it is **timing-correct and functionally robust** post-synthesis.
 
 
+### Week 4 – CMOS Inverter & SPICE Simulation
+
+> “Exploring transistor-level behavior and inverter characteristics using SPICE simulations.”
+
+| Day | Topic Focus | 💡 Key Learnings & Milestones |
+| :--- | :--- | :--- |
+| **Day 1** | **Introduction to SPICE Simulation** | 🔹 Learned what SPICE is and its role in **CMOS/VLSI circuit verification**. <br> 🔹 Understood DC, AC, and transient analyses. <br> 🔹 Recognized how SPICE helps predict transistor behavior before fabrication. |
+| **Day 2** | **NMOS Characteristics Analysis** | 🔹 Analyzed **ID vs VDS** for different **VGS** values. <br> 🔹 Plotted **ID vs VGS** to find threshold voltage and conduction behavior. <br> 🔹 Device dimensions: W = 39 µm, L = 15 µm. |
+| **Day 3** | **CMOS Inverter – VTC & Transient Response** | 🔹 Simulated **Voltage Transfer Characteristics (VTC)** with NMOS W = 0.36 µm, PMOS W = 0.84 µm, and CL = 50 fF. <br> 🔹 Ran **transient simulation** (1 ns step, 10 ns total) with pulsed input to observe output switching. |
+| **Day 4** | **CMOS Inverter Noise Margin Analysis** | 🔹 Analyzed **VTC** with PMOS W = 1 µm, NMOS W = 0.36 µm, CL = 50 fF. <br> 🔹 Observed logic levels: Vin < ~0.7 V → Vout ≈ 1.8 V, Vin > ~1.0 V → Vout ≈ 0 V. <br> 🔹 Determined **noise margins** (NMH, NML) from VTC. |
+| **Day 5** | **VTC Variation & Transistor Sizing Effects** | 🔹 Studied VTC changes with **Vdd** (1.8 V → 0.8 V in 0.2 V steps) and observed reduced logic levels, shifted threshold, and lower gain at lower Vdd. <br> 🔹 Analyzed effects of transistor sizing: PMOS W = 7 µm, NMOS W = 0.42 µm → impact on **drive strength, switching point, and speed**. |
 
 
 
