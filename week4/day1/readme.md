@@ -28,6 +28,7 @@ plot -vdd#branch
 ![im1](im1.png)
 ![im2](im2.png)
 
+- x-axis -> Vds | y-axis -> Id | each red line has a different Vgs value 
 
 ## 🧠 Summary
 SPICE simulation is a powerful tool that bridges the gap between **theory and real circuit behavior**, making it a cornerstone in CMOS and VLSI design verification.
