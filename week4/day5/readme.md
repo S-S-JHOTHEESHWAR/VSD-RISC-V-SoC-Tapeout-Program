@@ -30,3 +30,27 @@ To study how the **Voltage Transfer Characteristic (VTC)** of a **CMOS inverter*
 This experiment demonstrates how the **power supply voltage** directly affects the **noise margins**, **gain**, and **switching behavior** of a CMOS inverter.  
 Lowering **Vdd** reduces the inverter’s performance and makes logic levels less distinct, emphasizing the importance of proper **supply voltage selection** in digital circuit design.
 
+## 🧪 Part 2: Effect of Transistor Sizing on CMOS Inverter VTC
+
+## Device Parameters
+- **PMOS Width (Wp):** 7 µm  
+- **NMOS Width (Wn):** 0.42 µm  
+- **Load Capacitance (CL):** 50 fF  
+
+## Analysis
+- Perform a **DC sweep** of input voltage (**Vin**) to obtain **Vout vs Vin (VTC)**.  
+- Observe the effects of **changing transistor widths** on inverter behavior:
+![im.15](im15.png)
+![im.16](im16.png)
+**Observations:**
+- Increasing **PMOS width** → stronger pull-up → inverter **switches earlier**.  
+- Increasing **NMOS width** → stronger pull-down → faster fall time.  
+- **Drive strength**, **switching point**, and **transition speed** are influenced by transistor sizes.
+
+## 🧠Summary
+Transistor sizing is crucial for **balancing CMOS inverter performance**:  
+- A wider PMOS improves **pull-up strength** and shifts the switching threshold higher.  
+- A wider NMOS improves **pull-down strength** and reduces delay.  
+These adjustments help optimize **logic levels, gain, and speed** of digital circuits.
+
+
