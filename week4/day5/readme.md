@@ -22,7 +22,8 @@ To study how the **Voltage Transfer Characteristic (VTC)** of a **CMOS inverter*
   - The **logic levels (output high and low)** move closer together.  
   - The **switching threshold** shifts slightly.  
   - The **transition slope** becomes less steep — indicating **reduced inverter gain**.  
-
+![im13](im13.png)
+![im14](im14.png)
 ---
 
 ## 🧠 Summary
