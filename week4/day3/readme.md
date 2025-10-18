@@ -20,7 +20,8 @@ To simulate and analyze the **Voltage Transfer Characteristics (VTC)** and **tra
   - **Switching threshold voltage (Vm)**
   - **Noise margins**
   - **Voltage levels for logic ‘0’ and ‘1’**
-
+![im7](im7.png)
+![im8](im8.png)
 **Purpose:**  
 To understand how the inverter transitions between logic states and identify its switching point.
 
@@ -31,6 +32,9 @@ To understand how the inverter transitions between logic states and identify its
 - **Total Simulation Time:** 10 ns  
 - A **pulsed input** is applied to the inverter.  
 - The output waveform is observed to analyze **switching speed** and **delay**.
+
+![im9](im9.png)
+![im10](im10.png)
 
 **Purpose:**  
 To verify how the **CMOS inverter** responds dynamically to a changing input and how the **capacitive load (50 fF)** affects rise and fall times.
