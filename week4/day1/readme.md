@@ -17,6 +17,11 @@
 - Essential in **VLSI and mixed-signal design** workflows.  
 - Helps in **characterizing performance** (e.g., delay, power, gain, noise margin).
 
+## 🔬 lab work
+- To observe how the drain current (ID) varies with drain-source voltage (VDS) for a fixed gate-source voltage (VGS).
+
+
+
 ## 🧠 Summary
 SPICE simulation is a powerful tool that bridges the gap between **theory and real circuit behavior**, making it a cornerstone in CMOS and VLSI design verification.
 
