@@ -18,8 +18,9 @@ To analyze the **noise margins** of a **CMOS inverter** using SPICE simulation w
 - Observe the **Voltage Transfer Characteristics (VTC)** curve to determine:
   - **VOH (logic high output voltage)**  
   - **VOL (logic low output voltage)**  
-  - **VIL (maximum input recognized as logic 0)**  
-  - **VIH (minimum input recognized as logic 1)**  
+
+![im11](im11.png)
+![im12](im12.png)
 
 **Key Observations:**  
 - For **Vin < ~0.7 V**, **Vout ≈ 1.8 V** → Output is logic **‘1’**.  
