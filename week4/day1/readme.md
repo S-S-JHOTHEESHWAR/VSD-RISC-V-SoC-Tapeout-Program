@@ -18,7 +18,7 @@
 - Helps in **characterizing performance** (e.g., delay, power, gain, noise margin).
 
 ## 🔬 lab work 
-### NMOS characteristics
+### N-FET characteristics
 - To observe how the drain current (ID) varies with drain-source voltage (VDS) for a fixed gate-source voltage (VGS).
 
 ```bash
