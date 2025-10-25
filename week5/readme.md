@@ -1,21 +1,21 @@
 
 
-# 🚀 Week 5 – OpenROAD Flow: Floorplan & Placement
+# Week 5 – OpenROAD Flow: Floorplan & Placement
 
 ## 🛠️ 1. OpenROAD Installation
 
-### 📥 Clone the Repository
+### Clone the Repository
 ```bash
 git clone https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts.git
 cd OpenROAD-flow-scripts
 ```
 
-### ⚙️ Build OpenROAD
+### Build OpenROAD
 ```bash
 make OPENROAD_EXE=$(pwd)/tools/OpenROAD/bazel-out/k8-opt-exec-ST-*/bin/openroad
 ```
 
-### ✅ Verify Environment Setup
+### Verify Environment Setup
 ```bash
 source ~/OpenROAD-flow-scripts/setup_env.sh
 ```
@@ -28,22 +28,22 @@ Expected terminal output:
 
 ## 📂 2. Flow Execution & GUI Visualization
 
-### 📍 Navigate to Design Flow Directory
+### Navigate to Design Flow Directory
 ```bash
 cd <path-to-gcd-flow-directory>
 ```
 
-### 🖥️ Launch GUI for Final Design
+### Launch GUI for Final Design
 ```bash
 make gui_final
 ```
 
-### 👀 Observations in GUI
+### Observations in GUI
 - Floorplan generated for the `gcd` module
 - Standard cells placed successfully
 - Wires and interconnects visible in 2D layout
 
-### 📋 Terminal Logs Confirmed
+### Terminal Logs Confirmed
 - `Floorplan stage completed`
 - `Placement stage completed`
 - `Core area: <value>`
