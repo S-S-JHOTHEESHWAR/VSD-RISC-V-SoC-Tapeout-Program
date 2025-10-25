@@ -1,6 +1,12 @@
 
 
 # Week 5 – OpenROAD Flow: Floorplan & Placement
+## 🎯 Objective
+
+The goal of Week 5 is to install and run the OpenROAD flow to generate a floorplan and placement for the `gcd` design. This includes:
+- Setting up the OpenROAD environment
+- Running the flow scripts
+- Visualizing the layout in the GUI
 
 ## 🛠️ 1. OpenROAD Installation
 
