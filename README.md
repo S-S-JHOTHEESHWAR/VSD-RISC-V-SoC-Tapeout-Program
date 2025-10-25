@@ -34,7 +34,7 @@ This week focused on the core translation of logic into physical hardware.
 | **Day 5** | **Verilog Constructs for Hardware** | 🔹 Understood the synthesis impact of **If-Else statements**. <br> 🔹 Identified and learned to avoid **Inferred Latches**. <br> 🔹 Explored the role of **For Loops** and used **Generate Blocks** for scalable design. <br> 🔹 Introduced the **Ripple Carry Adder (RCA)** architecture. |
 
 -----
-### ⚙️ Week 2 – RVMYTH Integration & VSDBabySoC Simulation
+### Week 2 – RVMYTH Integration & VSDBabySoC Simulation
 
 > “From TL-Verilog to Waves — the BabySoC finally comes alive!”
 
@@ -80,6 +80,16 @@ This week marked a major milestone in the **VSD SoC journey**, transforming desi
 | **Day 4** | **CMOS Inverter Noise Margin Analysis** | 🔹 Analyzed **VTC** with PMOS W = 1 µm, NMOS W = 0.36 µm, CL = 50 fF. <br> 🔹 Observed logic levels: Vin < ~0.7 V → Vout ≈ 1.8 V, Vin > ~1.0 V → Vout ≈ 0 V. <br> 🔹 Determined **noise margins** (NMH, NML) from VTC. |
 | **Day 5** | **VTC Variation & Transistor Sizing Effects** | 🔹 Studied VTC changes with **Vdd** (1.8 V → 0.8 V in 0.2 V steps) and observed reduced logic levels, shifted threshold, and lower gain at lower Vdd. <br> 🔹 Analyzed effects of transistor sizing: PMOS W = 7 µm, NMOS W = 0.42 µm → impact on **drive strength, switching point, and speed**. |
 
+### Week 5 – OpenROAD Flow: Floorplan and Placement
+
+> “Installed OpenROAD and ran ORFS for early physical design stages.”
+
+- Installed **OpenROAD** and verified the environment.  
+- Ran the flow up to **Floorplan and Placement** stages.  
+- Verified **core area, die dimensions, and standard cell placement**.  
+- Reviewed logs and intermediate files to confirm proper execution.
+
+> ✅ **Outcome:** OpenROAD was successfully used in ORFS to complete floorplan and placement, preparing the design for subsequent routing stages.
 
 
 
