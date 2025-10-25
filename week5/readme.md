@@ -28,11 +28,10 @@ sudo ./setup.sh
 ### Verify Environment Setup
 ```bash
 source ./env.sh
-yosys -help
 openroad -help
 
 ```
-
+!(im1)[im1.png]
 ---
 
 ## 📂 2. Flow Execution & GUI Visualization
