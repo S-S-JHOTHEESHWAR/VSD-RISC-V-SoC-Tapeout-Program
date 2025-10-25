@@ -15,20 +15,23 @@ The goal of Week 5 is to install and run the OpenROAD flow to generate a floorpl
 git clone https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts.git
 cd OpenROAD-flow-scripts
 ```
+### Setup OpenROAD
+```bash
+sudo ./setup.sh
+```
 
 ### Build OpenROAD
 ```bash
-make OPENROAD_EXE=$(pwd)/tools/OpenROAD/bazel-out/k8-opt-exec-ST-*/bin/openroad
+./build_openroad.sh --local
 ```
 
 ### Verify Environment Setup
 ```bash
-source ~/OpenROAD-flow-scripts/setup_env.sh
-```
+source ./env.sh
+yosys -help
+openroad -help
 
-Expected terminal output:
-- `OpenROAD Environment Setup Complete`
-- `Flow.tcl loaded successfully`
+```
 
 ---
 
@@ -37,6 +40,7 @@ Expected terminal output:
 ### Navigate to Design Flow Directory
 ```bash
 cd <path-to-gcd-flow-directory>
+make
 ```
 
 ### Launch GUI for Final Design
