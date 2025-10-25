@@ -3,7 +3,7 @@
 # Week 5 – OpenROAD Flow: Floorplan & Placement
 ## 🎯 Objective
 
-The goal of Week 5 is to install and run the OpenROAD flow to generate a floorplan and placement for the `gcd` design. This includes:
+The goal of Week 5 is to install and run the OpenROAD flow to generate a floorplan and placement. This includes:
 - Setting up the OpenROAD environment
 - Running the flow scripts
 - Visualizing the layout in the GUI
@@ -39,7 +39,7 @@ openroad -help
 
 ### Navigate to Design Flow Directory
 ```bash
-cd <path-to-gcd-flow-directory>
+cd <path-to-makefile-flow-directory>
 make
 ```
 
@@ -64,7 +64,7 @@ make gui_final
 ## 📝 3. Summary
 
 - Successfully installed and verified OpenROAD environment
-- Executed flow for `gcd` using `make gui_final`
+- Executed flow using `make gui_final`
 - Verified floorplan and placement stages
 - Standard cells placed and core area calculated
 
