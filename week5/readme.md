@@ -31,7 +31,7 @@ source ./env.sh
 openroad -help
 
 ```
-!(im1)[im1.png]
+![im1](im1.png)
 ---
 
 ## 📂 2. Flow Execution & GUI Visualization
