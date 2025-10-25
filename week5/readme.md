@@ -47,6 +47,7 @@ make
 make gui_final
 ```
 
+![im2](im2.png)
 ### Observations in GUI
 - Floorplan generated for the `gcd` module
 - Standard cells placed successfully
