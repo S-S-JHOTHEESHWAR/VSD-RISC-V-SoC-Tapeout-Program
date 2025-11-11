@@ -67,8 +67,8 @@ Each step can also be run individually using:
 
 ---
 ## lab works
-![1](week6/day2/1.png)
-![2](week6/day2/2.png)
+![1](1.png)
+![2](2.png)
 
 ## 📚 References
 
