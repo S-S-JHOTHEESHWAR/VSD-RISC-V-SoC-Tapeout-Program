@@ -123,7 +123,11 @@ plot v(in) v(out)
 ---
 
 ## lab work
-
+![7](7.png)
+![8](8.png)
+![9](9.png)
+![10](10.png)
+![11](11.png)
 ## 🧪 Key Results
 
 - CMOS Inverter Layout successfully created  
