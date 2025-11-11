@@ -22,30 +22,31 @@ week6/
 
 ## 🧩 Steps Performed
 
-### 1. 🔲 Chip Floorplanning
+### 1. 🧠 Synthesis
+- Synthesized PicoRV32 RTL using Yosys
+- Analyzed timing and area reports
+- Verified netlist integrity before floorplan
+
+  
+### 2. 🔲 Chip Floorplanning
 - Defined core and die area
 - Set aspect ratio and core utilization
 - Configured floorplan parameters in `config.tcl`
 
-### 2. ⚡ Power Planning
+### 3. ⚡ Power Planning
 - Added power and ground rails
 - Verified power distribution network (PDN)
 - Used `pdn.tcl` for custom power grid setup
 
-### 3. 📌 Pin Placement
+### 4. 📌 Pin Placement
 - Assigned I/O pins to specific edges
 - Used `pin_order.cfg` for deterministic placement
 - Verified pin accessibility and spacing
 
-### 4. 🏗️ Running Floorplan in OpenLane
+### 5. 🏗️ Running Floorplan in OpenLane
 - Executed `run_floorplan` stage
 - Generated DEF and LEF files
 - Visualized layout using `openroad` GUI
-
-### 5. 🧠 Synthesis
-- Synthesized PicoRV32 RTL using Yosys
-- Analyzed timing and area reports
-- Verified netlist integrity before floorplan
 
 ### 6. 🧱 Placement Stage
 - Ran global and detailed placement
