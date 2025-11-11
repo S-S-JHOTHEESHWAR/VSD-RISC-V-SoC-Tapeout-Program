@@ -67,6 +67,8 @@ Each step can also be run individually using:
 
 ---
 ## lab works
+![1](1.png)
+![2](2.png)
 
 ## 📚 References
 
