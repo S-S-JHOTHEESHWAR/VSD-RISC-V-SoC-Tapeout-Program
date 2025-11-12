@@ -78,9 +78,3 @@ Each step can also be run individually using:
 
 ---
 
-**End of Day 1 – Basic ASIC Design Flow Overview 🚀**
-```
-
----
-
-Let me know if you'd like to add your own screenshots, logs, or results from running PicoRV32 through the flow!
